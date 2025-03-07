@@ -1,0 +1,37 @@
+[
+  {
+    "fullName": "Ravneshvar",
+    "email": "xyz@gmail.com",
+    "phone": "1234567899",
+    "password": "123@rrr",
+    "walletId": "WALLET-W9PXRWVZV"
+  },
+  {
+    "fullName": "Thomas",
+    "email": "thomas@gmail.com",
+    "phone": "45621378",
+    "password": "shelby",
+    "walletId": "WALLET-3IG63M789"
+  },
+  {
+    "fullName": "abc",
+    "email": "abc@gmail.com",
+    "phone": "452164",
+    "password": "111",
+    "walletId": "WALLET-1C3S1IA98"
+  },
+  {
+    "fullName": "walter",
+    "email": "walt@gmail.com",
+    "phone": "12345678944",
+    "password": "jesse",
+    "walletId": "WALLET-9KEW14KKI"
+  },
+  {
+    "fullName": "ark",
+    "email": "ark@gmail.com",
+    "phone": "123456714",
+    "password": "123",
+    "walletId": "WALLET-DB3DPJYWI"
+  }
+]

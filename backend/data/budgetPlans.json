@@ -1,0 +1,19 @@
+[
+  {
+    "email": "xyz@gmail.com",
+    "income": 2342,
+    "recommended_savings": 703,
+    "category_budget": {
+      "Housing": 820,
+      "Utilities": 820
+    },
+    "generated_date": "2025-03-07T09:43:09.301Z",
+    "budget_tips": [
+      "Try to save at least 30% of your income",
+      "Track your expenses regularly",
+      "Prioritize essential expenses",
+      "Build an emergency fund",
+      "Your recommended monthly savings: $703"
+    ]
+  }
+]

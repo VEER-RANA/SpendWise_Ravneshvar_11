@@ -1,0 +1,146 @@
+/* Full-Screen Background */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* ✅ Full-screen height */
+    width: 100vw; /* ✅ Full width */
+    background: #f0f0f0;
+}
+
+/* Centered Card */
+.login-card {
+    background: white;
+    padding: 40px; /* ✅ Increased padding for better proportions */
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px; /* ✅ Increased width for larger screens */
+    max-width: 90%; /* ✅ Prevents overflow on small screens */
+}
+
+/* Heading */
+h2 {
+    font-size: 28px; /* ✅ Larger text for 16-inch screens */
+    color: #222;
+    font-weight: bold;
+}
+
+/* Subtext */
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Input Fields */
+.input-group {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    background: #f9f9f9;
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    transition: 0.3s ease-in-out;
+}
+
+.input-group .icon {
+    margin-right: 10px;
+}
+
+.input-group input {
+    width: 100%;
+    border: none;
+    background: none;
+    font-size: 16px;
+    outline: none;
+}
+
+/* ✅ Ensure Both Buttons Are the Same Size */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Primary Button (Login) */
+.primary-btn{
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+} 
+.secondary-btn {
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin-left: 5px;
+}
+
+/* Login Button */
+.primary-btn {
+    background: #3b4ef8;
+    color: white;
+    border: none;
+}
+
+.primary-btn:hover {
+    background: #2f3ccf;
+}
+
+/* Signup Button */
+.secondary-btn {
+    background: transparent;
+    color: #3b4ef8;
+    border: 2px solid #3b4ef8;
+}
+
+.secondary-btn:hover {
+    background: #3b4ef8;
+    color: white;
+}
+
+/* Error Message */
+.error-msg {
+    color: red;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* ✅ Responsive Design for Smaller Screens */
+@media (max-width: 1024px) {
+    .login-card {
+        width: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .login-card {
+        width: 90%;
+        padding: 30px;
+    }
+
+    .primary-btn,
+    .secondary-btn {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 24px;
+    }
+
+    .primary-btn, .secondary-btn {
+        font-size: 14px;
+        padding: 12px;
+    }
+}

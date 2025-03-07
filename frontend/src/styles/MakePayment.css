@@ -1,0 +1,157 @@
+/* Ensure full-page background */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f4f5ff; /* Softer background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Main container for centering */
+  .make-payment-container {
+    font-family: "Arial", sans-serif;
+    width: 90%;
+    max-width: 1100px; /* Increase width to reduce whitespace */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding-top: 80px; /* Offset for fixed navbar */
+    margin-top: 100px;
+  }
+  
+  /* Wider content box */
+  .content {
+    width: 100%;
+    max-width: 800px; /* Increased width to reduce whitespace */
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Wallet Balance Section */
+  .wallet-balance-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .wallet-balance {
+    font-size: 32px;
+    font-weight: bold;
+    color: #3b4ef8;
+    margin: 5px 0;
+  }
+  
+  .real-time-update {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 15px;
+  }
+  
+  /* Transfer Details Section */
+  .transfer-details-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Stylish input fields */
+  .transfer-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .transfer-form input,
+  .transfer-form select {
+    width: 90%; /* Adjust width to fit wider content */
+    max-width: 600px;
+    padding: 14px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .transfer-form input::placeholder,
+  .transfer-form select {
+    color: #888;
+  }
+  
+  /* Button Styling */
+  .send-money-btn {
+    width: 90%;
+    max-width: 600px;
+    background-color: #3b4ef8;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .send-money-btn:hover {
+    background-color: #2a3bd1;
+    transform: scale(1.03);
+  }
+  
+  /* Secure Message Box */
+  .secure-message {
+    margin-top: 20px;
+    padding: 15px;
+    background: #e8eafc;
+    border-radius: 8px;
+    text-align: center;
+    width: 90%;
+    max-width: 700px;
+    margin-left: 50px;
+  }
+  
+  .secure-message h3 {
+    color: #3b4ef8;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .secure-message p {
+    font-size: 14px;
+    color: gray;
+    margin: 0;
+  }
+  
+  /* Responsive Design Adjustments */
+  @media screen and (max-width: 1024px) {
+    .make-payment-container {
+      width: 95%;
+    }
+  
+    .content {
+      max-width: 90%;
+    }
+  
+    .transfer-form input,
+    .transfer-form select,
+    .send-money-btn {
+      width: 95%;
+    }
+  
+    .secure-message {
+      width: 95%;
+    }
+  }
+  

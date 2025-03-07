@@ -1,0 +1,155 @@
+/* General Layout */
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  
+  .wallet-container {
+    width: 100vw; /* Ensure full viewport width */
+    min-height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+  }
+  
+  /* Wallet Content */
+  .wallet-content {
+    max-width: 1200px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 60px;
+    overflow-x: hidden; /* Prevents hidden elements from causing issues */
+  }
+  
+  /* Wallet Balance */
+  .wallet-balance {
+    text-align: center;
+  }
+  
+  .wallet-balance h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1e1e1e;
+  }
+  
+  .balance-amount {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3b4ef8;
+    margin-top: 10px;
+  }
+  
+  /* Manage Funds Section */
+  .manage-funds {
+    background: #ffaf72;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px;
+  }
+  
+  .manage-funds h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .manage-funds p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .fund-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .funds-image {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  /* Transactions Table */
+  .transactions-table {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .transactions-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #efc3ac;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .transactions-table th, .transactions-table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+  }
+  
+  .transactions-table th {
+    background: #7597ff;
+    font-weight: bold;
+  }
+  
+  .transactions-table tbody tr:last-child td {
+    border-bottom: none;
+  }
+  
+  /* Buttons */
+  .primary-btn {
+    padding: 8px 14px;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    background: #3b4ef8;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .primary-btn:hover {
+    background: #2f3ccf;
+  }
+  
+  .secondary-btn {
+    padding: 8px 14px;
+    font-size: 14px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .secondary-btn:hover {
+    background: white;
+    color: #6a5acd;
+  }
+
+  .section-heading {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1e1e1e; /* Dark text color for visibility */
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  

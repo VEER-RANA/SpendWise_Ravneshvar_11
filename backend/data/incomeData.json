@@ -1,0 +1,45 @@
+[
+  {
+    "email": "xyz@gmail.com",
+    "income": 2342,
+    "categories": [
+      "Housing",
+      "Food",
+      "Savings",
+      "Utilities",
+      "Shopping",
+      "Education",
+      "Healthcare",
+      "adasdas",
+      "asdasd",
+      "Investments",
+      "asdsad",
+      "asdas",
+      "Transport",
+      "Entertainment",
+      "dsadasdsa"
+    ],
+    "date": "2025-03-07T09:43:09.268Z",
+    "date_added": "2025-03-07 11:00:50"
+  },
+  {
+    "email": "thomas@gmail.com",
+    "income": 4275,
+    "categories": [
+      "Food",
+      "Transport",
+      "xyz"
+    ],
+    "date": "2025-03-06T08:42:13.701Z"
+  },
+  {
+    "email": "ark@gmail.com",
+    "income": 12332,
+    "categories": [
+      "Food",
+      "Transport",
+      "travel"
+    ],
+    "date": "2025-03-06T15:24:18.529Z"
+  }
+]

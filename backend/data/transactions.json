@@ -1,0 +1,66 @@
+[
+  {
+    "email": "xyz@gmail.com",
+    "transactions": [
+      {
+        "amount": 200,
+        "category": "Food",
+        "description": "",
+        "date": "2025-03-06T09:30:57.893Z"
+      },
+      {
+        "amount": 350,
+        "category": "Food",
+        "description": "",
+        "date": "2025-03-06T09:31:16.378Z"
+      },
+      {
+        "amount": 500,
+        "category": "travel",
+        "description": "",
+        "date": "2025-03-06T09:31:46.406Z"
+      },
+      {
+        "amount": 459045904594,
+        "category": "Housing",
+        "description": "",
+        "date": "2025-03-07T05:36:14.165Z"
+      },
+      {
+        "amount": 1221,
+        "category": "Housing",
+        "description": "",
+        "date": "2025-03-07T06:40:52.842Z"
+      },
+      {
+        "amount": 8888888888,
+        "category": "Housing",
+        "description": "asdasd",
+        "date": "2025-03-07T06:41:26.111Z"
+      },
+      {
+        "amount": 1231231,
+        "category": "asdsad",
+        "description": "qsedsa",
+        "date": "2025-03-07T08:28:37.405Z"
+      },
+      {
+        "amount": 3432,
+        "category": "Food",
+        "description": "qqew",
+        "date": "2025-03-07T09:44:26.190Z"
+      }
+    ]
+  },
+  {
+    "email": "ark@gmail.com",
+    "transactions": [
+      {
+        "amount": 225,
+        "category": "Food",
+        "description": "",
+        "date": "2025-03-06T14:55:23.185Z"
+      }
+    ]
+  }
+]

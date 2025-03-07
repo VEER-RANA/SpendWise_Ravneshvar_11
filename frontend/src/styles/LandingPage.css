@@ -1,0 +1,165 @@
+/* Landing Page Styles */
+.landing-page-container {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    width: 100vw;
+}
+
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hero-section h1 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #222;
+}
+
+.hero-section p {
+    font-size: 18px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.hero-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.primary-btn, .secondary-btn {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.primary-btn {
+    background: #6a5acd;
+    color: white;
+}
+
+.primary-btn:hover {
+    background: #5a4eb5;
+    transform: scale(1.05);
+}
+
+.secondary-btn {
+    background: transparent;
+    color: #6a5acd;
+    border: 2px solid #6a5acd;
+}
+
+.secondary-btn:hover {
+    background: #f0f0f0;
+    transform: scale(1.05);
+}
+
+/* Image Section */
+.image-section {
+    margin: 50px auto;
+    width: 60%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.image-section img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Features Section */
+.features-section {
+    text-align: center;
+    margin-top: 50px;
+    width: 85%;
+    max-width: 1200px;
+}
+
+.features-section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 30px;
+}
+
+/* Features Grid */
+.features-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.feature-card {
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    min-width: 280px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: scale(1.05);
+}
+
+.icon {
+    font-size: 24px;
+    background: #6a5acd;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+.feature-card h3 {
+    font-size: 18px;
+    color: #222;
+    font-weight: bold;
+}
+
+.feature-card p {
+    font-size: 16px;
+    color: #444;
+    margin-top: 5px;
+}
+
+/* Explore Button */
+.explore-btn {
+    margin-top: 30px;
+    background: #6a5acd;
+    color: white;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.explore-btn:hover {
+    background: #5a4eb5;
+    transform: scale(1.20);
+}
